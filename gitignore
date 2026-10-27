@@ -1,0 +1,33 @@
+# Excel and office temporary/lock files
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+~$*.docx
+~$*.pptx
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE settings
+.vscode/
+.idea/
+
+# Python cache files (if any helper scripts are added)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Temporary and log files
+*.tmp
+*.temp
+*.log
+
+# Environment secrets
+.env
+.env.*
+
+# Keep example environment templates if added
+!.env.example
